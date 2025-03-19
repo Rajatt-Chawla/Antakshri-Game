@@ -42,7 +42,7 @@ word-antakshari-game/
 1. Clone the Repository
 
 sh
-git clone https://github.com/your-repo/word-antakshari-game.git
+git clone (https://github.com/Rajatt-Chawla/Antakshri-Game)
 cd word-antakshari-game
 
 
@@ -53,11 +53,10 @@ npm install
 3. Configure `.env` File
 Create a `.env` file in the root directory and add:
 
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/word-antakshari
+MONGO_URI=mongodb+srv://rajat123:rajat123@cluster.mongodb.net/word-antakshari
 JWT_SECRET=your_secret_key
 PORT=5000
 
-Replace `<username>` and `<password>` with your MongoDB credentials.
 
 4. Import Words into MongoDB
 Run the following script to import the word list into your MongoDB database:
@@ -98,3 +97,4 @@ npm run dev
 
 ## Credits
 Developed by Rajat Chawla.
+https://github.com/Rajatt-Chawla/Antakshri-Game
